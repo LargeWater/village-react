@@ -1,5 +1,7 @@
+import { useState } from 'react';
+
 const Villager = () => {
-  let villagerCount = 1
+  const [villagerCount, setVillagerCount] = useState(1)
   return ( 
     <>
       <h3>Villager count: {villagerCount}</h3>

@@ -6,9 +6,21 @@ import Villager from './components/villager';
 import House from './components/house';
 
 function App() {
+  
   return (
     <div className="App">
+      <h1>
+        village
+      </h1>
+      <h2>
+        a game about a village
+      </h2>
+      <h2>
+        WARNING: refreshing or exiting the page will reset your counts, be very careful...
+      </h2>
       <Villager />
+      <Wood />
+      <House />
     </div>
   );
 }

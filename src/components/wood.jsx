@@ -1,7 +1,16 @@
+import { useState } from 'react';
+
 const Wood = () => {
+  const [woodCount, setWoodCount] = useState(0)
+  function handleClick() {
+    setWoodCount(woodCount + 1)
+  }
   return ( 
     <>
-
+    <button onClick={handleClick}>
+      Chop Wood
+      </button>
+      <h3>Wood: {woodCount}</h3>
     </>
   );
 }
