@@ -10,9 +10,16 @@ const Wood = () => {
     <button onClick={handleClick}>
       Chop Wood
       </button>
-      <h3>Wood: {woodCount}</h3>
+      <h3>
+        <img 
+        src='/logs.png' 
+        alt='wood'
+        style={{ width: "100px", height: "100px" }}/>
+        = {woodCount}
+  
+      </h3>
     </>
   );
 }
 
-export default Wood;
+export default Wood

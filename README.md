@@ -10,4 +10,6 @@ Initially built in basic JavaScript, HTML and CSS, now reworking from the ground
 - hunger
 - random events (i.e. attacks that kill villagers, destroy houses, eat food, etc.)
 
-## Heavily inspired by [A Dark Room](https://adarkroom.doublespeakgames.com/), but ultimately going a *very* different route. 
+## Inspired by [A Dark Room](https://adarkroom.doublespeakgames.com/), [Stacklands](https://store.steampowered.com/app/1948280/Stacklands/) and many other minimal building games. 
+
+[Wood icon](https://www.flaticon.com/free-icons/wood) created by Freepik - Flaticon
